@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="tk3.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="convert">
+            <h1>Temperature Converter</h1>
+            <label for="celcius">Celcius</label>&nbsp;&nbsp;&nbsp;
+            <input id="celcius" type="text" placeholder="Enter Temperature">&nbsp;&nbsp;&nbsp;
+            <button class="button" onclick="convertFah()">Convert to °Fahrenheit</button>
+            <br><br>
+
+            <label for="fahrenheit">Fahrenheit</label>&nbsp;&nbsp;&nbsp;
+            <input id="fahrenheit" type="text" placeholder="Enter Temperature">&nbsp;&nbsp;&nbsp;
+            <button class="button" onclick="convertCel()">Convert to °Celcius</button>
+            <br><br>
+
+            <button class="button" style="background-color: rgb(232, 33, 19);" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+
+    <script src="tk3.js"></script>
+
+</body>
+
+</html>
